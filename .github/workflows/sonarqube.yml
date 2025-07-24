@@ -21,7 +21,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: cd Lab9_NEW && npm install
+        run: npm install
 
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
